@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\carlo\\Documents\\Workspaces\\microservicios-udemy\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=/p_wrk1/workspaces_faceldi/CursosCarlos/microservicios-udemy/.git\:/p_wrk1/workspaces_faceldi/CursosCarlos/microservicios-udemy/.git;\:
+GitRepositoriesView.GitDirectories.relative=.git\:.git;\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

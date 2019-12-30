@@ -2,8 +2,8 @@ package com.carlos.springboot.app.items.models.service;
 
 import java.util.List;
 
+import com.carlos.springboot.app.commons.models.entity.Producto;
 import com.carlos.springboot.app.items.models.Item;
-import com.carlos.springboot.app.items.models.Producto;
 
 public interface IItemService {
 	public List<Item> findAll();

@@ -1,5 +1,7 @@
 package com.carlos.springboot.app.items.models;
 
+import com.carlos.springboot.app.commons.models.entity.Producto;
+
 public class Item {
 
 	private Producto producto;
