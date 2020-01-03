@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.carlos.springboot.app.commons.models.entity.Producto;
 import com.carlos.springboot.app.items.clientes.IProductoClienteRest;
 import com.carlos.springboot.app.items.models.Item;
-import com.carlos.springboot.app.items.models.Producto;
 
 @Service("serviceFeign")
 public class ItemServiceFeign implements IItemService {
@@ -28,20 +28,17 @@ public class ItemServiceFeign implements IItemService {
 
 	@Override
 	public Producto save(Producto producto) {
-		// TODO Auto-generated method stub
-		return null;
+		return clienteFeign.crear(producto);
 	}
 
 	@Override
 	public Producto update(Producto producto, Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		return clienteFeign.update(producto, id);
 	}
 
 	@Override
 	public void delete(Long id) {
-		// TODO Auto-generated method stub
-		
+		clienteFeign.eliminar(id);
 	}
 
 }
