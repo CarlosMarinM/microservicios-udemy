@@ -5464,3 +5464,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-12-29 11:50:28,140 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\carlo\Documents\Workspaces\microservicios-udemy\springboot-servicio-item\src\test\resources
 2019-12-29 11:53:25,703 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-29 11:53:25,703 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-29 11:53:25,706 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-29 11:53:25,706 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-29 11:53:25,706 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\carlo\Documents\Workspaces\microservicios-udemy\springboot-servicio-item\src\test\resources
+2020-01-02 20:02:50,361 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
