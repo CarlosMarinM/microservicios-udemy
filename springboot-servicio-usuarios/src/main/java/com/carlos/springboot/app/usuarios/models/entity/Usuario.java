@@ -39,6 +39,8 @@ public class Usuario implements Serializable {
 	@JoinTable(name = "usuarios_roles", joinColumns = @JoinColumn(name = "usuario_id"), inverseJoinColumns = @JoinColumn(name = "rol_id"), uniqueConstraints = {
 			@UniqueConstraint(columnNames = { "usuario_id", "rol_id" }) })
 	private List<Rol> roles;
+	
+	private Integer intentos;
 
 	public Long getId() {
 		return id;
@@ -102,6 +104,14 @@ public class Usuario implements Serializable {
 
 	public void setRoles(List<Rol> roles) {
 		this.roles = roles;
+	}
+
+	public Integer getIntentos() {
+		return intentos;
+	}
+
+	public void setIntentos(Integer intentos) {
+		this.intentos = intentos;
 	}
 
 	private static final long serialVersionUID = 1L;
